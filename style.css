@@ -41,3 +41,46 @@ section {
   height: 45%;
   margin-top: 1.5rem;
 }
+
+.welcome-imgbg-container{
+  background-image: url(./images/Vectorrr.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 500px; */
+  width: 100% ;
+  border-radius: 0.5rem;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5.5rem;
+  text-align: left;
+}
+
+.welcome-imgbg-container-left h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.welcome-imgbg-container-left p{
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.welcome-imgbg-container-left button{
+  border: none;
+  background: none;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.welcome-imgbg-container-right img{
+  height: 100%;
+  width: 100%;
+}
