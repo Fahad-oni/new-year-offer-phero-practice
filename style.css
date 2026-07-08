@@ -30,26 +30,29 @@ section {
   margin-bottom: 1rem;
 }
 
-.offer-section h4{
+.offer-section h4 {
   font-size: 1.35rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
-.offer-section img{
+.offer-section img {
   width: 45%;
   height: 45%;
   margin-top: 1.5rem;
 }
 
-.welcome-imgbg-container{
-  background-image: url(./images/Vectorrr.png);
+.welcome-imgbg-container {
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.2)),
+    url('./images/Vectorrr.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   /* min-height: 500px; */
-  width: 100% ;
+  width: 100%;
   border-radius: 0.5rem;
+  overflow: hidden;
   padding: 2rem 4rem;
   display: flex;
   justify-content: space-between;
@@ -58,29 +61,41 @@ section {
   text-align: left;
 }
 
-.welcome-imgbg-container-left h2{
+.welcome-imgbg-container-left h2 {
   font-size: 2.5rem;
   font-weight: 700;
+  letter-spacing: 2px;
   color: white;
   margin-bottom: 1.5rem;
 }
 
-.welcome-imgbg-container-left p{
-  color: white;
+.welcome-imgbg-container-left p {
+  color: rgba(255, 255, 255, 0.8);
   font-size: 0.8rem;
   font-weight: 400;
   margin-bottom: 2rem;
 }
 
-.welcome-imgbg-container-left button{
+.welcome-imgbg-container-left button {
   border: none;
   background: none;
   color: white;
   font-size: 0.9rem;
   font-weight: 700;
+  transition: 0.8s;
+  margin-left: 0.5rem;
 }
 
-.welcome-imgbg-container-right img{
+.welcome-imgbg-container-left button:hover {
+  transform: scale(1.3);
+}
+
+.welcome-imgbg-container-right img {
   height: 100%;
   width: 100%;
+  transition: 0.4s;
+}
+
+.welcome-imgbg-container-right img:hover {
+  transform: scale(1.05);
 }
